@@ -21,13 +21,13 @@
       <input type="submit" class="fadeIn fourth" value="Entrar">
     </form>
     <div id="formFooter">
-      <a class="underlineHover" href="registro.php">Registrar</a>
+      <a class="underlineHover" href="./registro.php">Registrar</a>
     </div>
   </div>
 </div>
 <script src="librerias/jquery-3.4.1.min.js"></script>
 <script src="librerias/sweetalert.min.js"></script>
- <!-- <script type="text/javascript">
+ <script type="text/javascript">
    function logear(){
         $.ajax({
             type:"POST",
@@ -44,6 +44,6 @@
         });
         return false;
    }
- </script> -->
+ </script>
 </body>
 </html>
