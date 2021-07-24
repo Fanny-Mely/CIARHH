@@ -1,14 +1,17 @@
+<?php ?>
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Gestor</title>
 	<link rel="stylesheet" type="text/css" href="../librerias/bootstrap4/bootstrap.min.css">
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="../librerias/fontawesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="../librerias/datatable/dataTables.bootstrap4.min.css">
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="../librerias/fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="../librerias/datatable/dataTables.bootstrap4.min.css">
+
 </head>
+
 <body style="background-color: #e9ecef">
 
 
@@ -34,9 +37,9 @@
 					<li class="nav-item">
 						<a class="nav-link" href="gestor.php"> <span class="far fa-folder"></span> Archivos</a>
 					</li>
-					
-					<li class="nav-item" >
-						<a class="nav-link" href="../procesos/usuario/salir.php" style="color: white"> 
+
+					<li class="nav-item">
+						<a class="nav-link" href="../procesos/usuario/salir.php" style="color: white">
 							<span class="fas fa-power-off"></span> Salir
 						</a>
 					</li>
@@ -44,7 +47,3 @@
 			</div>
 		</div>
 	</nav>
-
-
-
-
