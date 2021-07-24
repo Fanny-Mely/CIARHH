@@ -27,7 +27,7 @@
 </div>
 <script src="librerias/jquery-3.4.1.min.js"></script>
 <script src="librerias/sweetalert.min.js"></script>
- <script type="text/javascript">
+ <!-- <script type="text/javascript">
    function logear(){
         $.ajax({
             type:"POST",
@@ -44,6 +44,6 @@
         });
         return false;
    }
- </script>
+ </script> -->
 </body>
 </html>
