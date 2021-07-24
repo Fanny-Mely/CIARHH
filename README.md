@@ -10,38 +10,30 @@
 <body>
 	<div class="wrapper fadeInDown">
   <div id="formContent">
-  
     <div class="fadeIn first">
       <p></p>
       <img src="img/logoc.jpg" class="img-thumbnail" width="80px" id="icon" alt="User Icon" />
       <h1>Gestor de Documentos</h1>
     </div>
-    
     <form method="post" id="frmLogin" onsubmit="return logear()">
       <input type="text" id="login" class="fadeIn second" name="login" placeholder="Nombre Usuario" required="">
       <input type="password" id="password" class="fadeIn third" name="password" placeholder="Contraseña" required="">
       <input type="submit" class="fadeIn fourth" value="Entrar">
     </form>
-
-   
     <div id="formFooter">
       <a class="underlineHover" href="registro.php">Registrar</a>
     </div>
-
   </div>
 </div>
-
 <script src="librerias/jquery-3.4.1.min.js"></script>
 <script src="librerias/sweetalert.min.js"></script>
-  
  <script type="text/javascript">
    function logear(){
         $.ajax({
             type:"POST",
             data:$('#frmLogin').serialize(),
             url:"procesos/usuario/login/login.php",
-            success:function(respuesta) {
-               
+            success:function(respuesta) {             
                 respuesta = respuesta.trim();
                 if (respuesta == 1) {
                     window.location = "vistas/inicio.php";
@@ -50,10 +42,8 @@
                 }
             }
         });
-
         return false;
    }
  </script>
-
 </body>
 </html>
