@@ -21,7 +21,7 @@
       <input type="submit" class="fadeIn fourth" value="Entrar">
     </form>
     <div id="formFooter">
-      <a class="underlineHover" href="registro.php">Registrar</a>
+      <a class="underlineHover" href="registro.html">Registrar</a>
     </div>
   </div>
 </div>
